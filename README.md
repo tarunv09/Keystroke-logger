@@ -14,7 +14,7 @@ There are various ways by keys can be intercepted and three of them are:
 1. kbhit()<br />
 Prototype: int kbhit(void);<br />
 Header File: conio.h<br />
-Explanation: This function is not defined as part of the ANSI C/C++ standard. It is  generally used by Borland's family of compilers. It returns a non-zero integer if a key is in the keyboard buffer. It will not wait for a key to be pressed.
+Explanation: This function is not defined as part of the ANSI C/C++ standard. It is  generally used by Borland's family of compilers. It returns a non-zero integer if a key is in the keyboard buffer. It will not wait for a key to be pressed.<br />
 2. GetAsyncKeyState()
 Prototype: short GetAsyncKeyState(int vKey);<br />
 Header File: Windows.h<br />
@@ -30,8 +30,8 @@ the specified virtual key, as follows:<br />
 
 
 ## Prerequisite 
-1.MinGW for Windows<br />
-2.VS Code editor 
+1. MinGW for Windows<br />
+2. VS Code editor 
 
 ## Usage
 For (cmd-admin) users:
