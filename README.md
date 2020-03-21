@@ -36,7 +36,7 @@ the specified virtual key, as follows:<br />
 2. VS Code editor 
 
 ## Usage
-For (cmd-admin) users:
+For cmd(admin) users:
 ``` 
     cd <Directory Name>
     gcc -mwindows keylogger.c -o test.exe
