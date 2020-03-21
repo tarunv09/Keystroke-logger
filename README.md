@@ -7,7 +7,7 @@ I built this project to learn and improve something that I was curious about bac
 ### Keylogger comprises of three main components:
 1. Log: A log is the automatically produced and time-stamped documentation of events relevant to a particular system. 
 2. GetKeyState(): It returns a specific value when the ASCII/hex value of the character keypressed.
-3. Hidden Mode: The whole software isn’t visible or detectable by the user.
+3. Stealth Mode: The whole software runs in the background.
 
 ### Modules 
 There are various ways by keys can be intercepted and three of them are:
