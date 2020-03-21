@@ -37,7 +37,8 @@ the specified virtual key, as follows:<br />
 
 ## Usage
 For (cmd-admin) users:
-```cd <Directory Name>
+``` 
+    cd <Directory Name>
     gcc -mwindows keylogger.c -o test.exe
     test
 ```
