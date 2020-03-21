@@ -40,7 +40,7 @@ For (cmd-admin) users:
     test
 ```
 For vs code users:
-``` install extension Code Runner
+```install extension Code Runner
     Right-Click inside the code editor
     Run Code
 ```
