@@ -2,7 +2,7 @@
 A keystroke logger (also known as keylogger) is software that tracks or logs the keys when struck on the keyboard. The main purpose is to log everything that is typed on a keyboard and store it in text files for later assessment. 
 
 ## DISCLAIMER:
-I built this project to learn and improve something that I was curious about back in my sophomore days. I don't promote this or similar softwares to be used in any malicious manner or for illegitimate purposes. 
+I built this project to improve and learn about something that I was curious back in my sophomore days. I do not promote this or similar softwares to be used in any malicious manner or for illegitimate purposes. 
 
 ### Keylogger comprises of three main components:
 1. Log: A log is the automatically produced and time-stamped documentation of events relevant to a particular system. 
