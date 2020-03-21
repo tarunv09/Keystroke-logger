@@ -50,5 +50,7 @@ For vs code users:
 
 ![output2](/Output/output2.jpg)
     
-
-
+## References
+[I](https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getasynckeystate)
+[II](https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getkeystate)
+[III](https://docs.microsoft.com/en-us/windows/desktop/inputdev/virtual-key-codes)
