@@ -48,7 +48,6 @@ For vs code users:
     Right-Click inside the code editor
     Run Code
 ```
-
 ## Screenshots
 ![output1](/Output/output1.jpg)
 
