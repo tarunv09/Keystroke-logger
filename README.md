@@ -15,10 +15,12 @@ There are various ways by keys can be intercepted and three of them are:
 Prototype: int kbhit(void);<br />
 Header File: conio.h<br />
 Explanation: This function is not defined as part of the ANSI C/C++ standard. It is  generally used by Borland's family of compilers. It returns a non-zero integer if a key is in the keyboard buffer. It will not wait for a key to be pressed.<br />
+
 2. GetAsyncKeyState()
 Prototype: short GetAsyncKeyState(int vKey);<br />
 Header File: Windows.h<br />
 Explanation: Determines whether a key is up or down at the time the function is called, and whether the key was pressed after a previous call to GetAsyncKeyState. If the function succeeds, the return value specifies whether the key was pressed since the last call to GetAsyncKeyState, and whether the key is currently up or down. If the most significant bit is set, the key is down, and if the least significant bit is set, the key was pressed after the previous call to GetAsyncKeyState.<br />
+
 3. GetKeyState()
 Prototype: short GetKeyState(int vKey);<br />
 Header File: Windows.h<br />
@@ -40,7 +42,7 @@ For (cmd-admin) users:
     test
 ```
 For vs code users:
-```install extension Code Runner
+``` install extension 'Code Runner'
     Right-Click inside the code editor
     Run Code
 ```
@@ -51,6 +53,6 @@ For vs code users:
 ![output2](/Output/output2.jpg)
     
 ## References
-[I](https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getasynckeystate)
-[II](https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getkeystate)
-[III](https://docs.microsoft.com/en-us/windows/desktop/inputdev/virtual-key-codes)
+[getasynckeystate](https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getasynckeystate)<br />
+[getkeystate](https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getkeystate)<br />
+[virtual-key-codes](https://docs.microsoft.com/en-us/windows/desktop/inputdev/virtual-key-codes)<br />
