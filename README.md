@@ -11,24 +11,22 @@ I built this project to learn and improve something that I was curious about bac
 
 ### Modules 
 There are various ways by keys can be intercepted and three of them are:
-1. kbhit()<br />
-Prototype: int kbhit(void);<br />
-Header File: conio.h<br />
-Explanation: This function is not defined as part of the ANSI C/C++ standard. It is  generally used by Borland's family of compilers. It returns a non-zero integer if a key is in the keyboard buffer. It will not wait for a key to be pressed.<br />
+1. **kbhit()**<br />
+**Prototype:** int kbhit(void);<br />
+**Header File:** conio.h<br />
+**Explanation:** This function is not defined as part of the ANSI C/C++ standard. It is  generally used by Borland's family of compilers. It returns a non-zero integer if a key is in the keyboard buffer. It will not wait for a key to be pressed.<br />
 
-2. GetAsyncKeyState()
-Prototype: short GetAsyncKeyState(int vKey);<br />
-Header File: Windows.h<br />
-Explanation: Determines whether a key is up or down at the time the function is called, and whether the key was pressed after a previous call to GetAsyncKeyState. If the function succeeds, the return value specifies whether the key was pressed since the last call to GetAsyncKeyState, and whether the key is currently up or down. If the most significant bit is set, the key is down, and if the least significant bit is set, the key was pressed after the previous call to GetAsyncKeyState.<br />
+2. **GetAsyncKeyState()**
+**Prototype:** short GetAsyncKeyState(int vKey);<br />
+**Header File:** Windows.h<br />
+**Explanation:** Determines whether a key is up or down at the time the function is called, and whether the key was pressed after a previous call to GetAsyncKeyState. If the function succeeds, the return value specifies whether the key was pressed since the last call to GetAsyncKeyState, and whether the key is currently up or down. If the most significant bit is set, the key is down, and if the least significant bit is set, the key was pressed after the previous call to GetAsyncKeyState.<br />
 
-3. GetKeyState()
-Prototype: short GetKeyState(int vKey);<br />
-Header File: Windows.h<br />
-Explanation: Retrieves the status of the specified virtual key. The status specifies 
-whether the key is up, down, or toggled. The return value specifies the status of  
-the specified virtual key, as follows:<br />
-•	If the high-order bit is 1, the key is down; otherwise, it is up.<br />
-•	If the low-order bit is 1, the key is toggled. A key, such as the CAPS LOCK key, is toggled if it is turned on. The key is off and untoggled if the low-order bit is 0. A toggle key's indicator light (if any) on the keyboard will be on when the key is toggled, and off when the key is untoggled.
+3. **GetKeyState()**
+**Prototype:** short GetKeyState(int vKey);<br />
+**Header File:** Windows.h<br />
+**Explanation:** Retrieves the status of the specified virtual key. The status specifies whether the key is up, down, or toggled. The return value specifies the status of the specified virtual key, as follows:<br />
+- If the high-order bit is 1, the key is down; otherwise, it is up.<br />
+- If the low-order bit is 1, the key is toggled. A key, such as the CAPS LOCK key, is toggled if it is turned on. The key is off and untoggled if the low-order bit is 0. A toggle key's indicator light (if any) on the keyboard will be on when the key is toggled, and off when the key is untoggled.
 
 
 ## Prerequisites
