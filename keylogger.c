@@ -17,10 +17,6 @@ int main()
 	char chars_vs[]=":+<_>?~";
 	char chars_va[]="[\\]\';";
 	char chars_vb[]="{|}\"";
-
-    /*//to get time
-    time_t t;
-    t = time(NULL);*/
     
     //making last key state 0
     for(stroke_vkey=0;stroke_vkey<0xFF;stroke_vkey++)
