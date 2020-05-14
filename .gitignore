@@ -1,4 +1,9 @@
-finalendterm.docx //documentation file 
-loggertest2.c  // ignore 
-keylogger.exe // Caution: executable file
-/Output
+#documentation file 
+finalendterm.docx 
+
+#test code 
+loggertest2.c
+
+#Caution: executable file
+keylogger.exe 
+
